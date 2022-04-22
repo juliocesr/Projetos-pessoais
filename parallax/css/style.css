@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img {
+    color: white;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: center;
+    text-align: center;
+}
+.img h1 {
+    margin: 25px;
+    font-size: 60px;
+    font-family: 'IBM Plex mono' monospace;
+}
+#img-1 {
+    height: 750px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.158)), url(/img/john-fowler-ooZfU1oyS7E-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#img-2 {
+    height: 750px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.007)), url(/img/jaanus-jagomagi-g9W1rDAqr-I-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img-3 {
+    height: 750px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.384)), url(/img/matteo-bellia-1ZD5mQPgDz0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img-4 {
+    height: 750px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.158)), url(/img/rajesh-kp-SNg0df76imk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texto {
+    width: 100%;
+    height: 500px;
+    padding: 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 10px solid rgba(145, 139, 139, 0.432);
+    border-top: 10px solid rgba(145, 139, 139, 0.432);
+}
+.texto h2 {
+    font-size: 40px;
+}
+.colunas {
+    width: 80%;
+    display: flex;
+}
+.coluna {
+    padding: 10px 15px;
+    text-align: justify;
+}
+.coluna h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.texto-1 {
+    width: 700px;
+    text-align: justify;
+}
+.texto-1 h2 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
